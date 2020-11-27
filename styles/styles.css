@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+ @import url("https://use.typekit.net/yky6cne.css");
+ @import url("https://use.typekit.net/yky6cne.css");
 
-.Branded-Head {
-  font-family: 'Teko', sans-serif;
+.branded-head {
+  font-family: abolition, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 5em;
-  font-weight: 300;
   letter-spacing: 0.01em;
   line-height: 1em;
   font-style: normal;
   color: #000;
   text-decoration: none;
+  padding: 10px 10px;
+}
+
+.head-nav {
+  font-family: brandon-grotesque;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: .14em;
+  text-transform: uppercase;
 }
