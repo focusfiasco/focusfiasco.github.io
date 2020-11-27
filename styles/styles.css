@@ -8,6 +8,10 @@
    padding-bottom: 20px;
  }
 
+ .top-wrap {
+   position: absolute;
+ }
+
  .parallax {
    height: 100%;
    background-attachment: fixed;
@@ -66,8 +70,8 @@
 
 .image-title-overlay {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 25px;
+  left: 15px;
 }
 
 .image-title-overlay p {
@@ -83,8 +87,8 @@
 
 .image-subtitle-overlay {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 75px;
+  left: 15px;
 }
 
 .image-subtitle-overlay p {
