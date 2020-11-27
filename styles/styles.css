@@ -42,5 +42,25 @@
 
 .main-content {
   display: grid;
-  
+}
+
+.img-fullwidth {
+
+}
+
+.image-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-text-overlay p {
+  font-family: brother-1816, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .01em;
+  text-transform: none;
+  line-height: 1.2em;
+  color: #fff;
 }
