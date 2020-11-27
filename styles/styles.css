@@ -87,8 +87,9 @@
 
 .image-subtitle-overlay {
   position: absolute;
-  top: 75px;
+  top: 50%;
   left: 50px;
+  transform: translate(0%, -50%);
 }
 
 .image-subtitle-overlay p {
