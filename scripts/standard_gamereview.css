@@ -1,0 +1,369 @@
+.container-fluid main-container {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.top-row {
+  position: relative;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  width: 100%;
+}
+
+.second-row {
+  position: relative;
+  display: block;
+  min-height: 200px;
+  margin:auto;
+  width: 100%;
+}
+
+.second-row p {
+  display: block;
+  position: relative;
+  min-height: 200px;
+  word-wrap:break-word;
+  width: 80%;
+  float: right;
+}
+
+.author-box {
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  width: 15%;
+  min-width: 100px;
+  text-align: left;
+  align-items: left;
+  float: left;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.author-date {
+  font-size: 1.2em;
+  font-family: adobe-garamond-pro;
+  letter-spacing: -0.1em;
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 2em;
+  color: black;
+}
+
+.author-links {
+  display: contents;
+  margin-left: 0;
+  align-items: baseline;
+}
+
+.author-links a {
+  font-size: 1em;
+  letter-spacing: -.05em;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.author-box h7{
+  margin-left: 0em;
+  padding-left: 0em;
+}
+
+.third-row {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.third-row column-center {
+  display: contents;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.fourth-row {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.fifth-row {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.line-ups-home {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.line-ups-away {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.line-ups column-center {
+  display: contents;
+  width: auto;
+}
+
+.box-stats-end {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.col2 {
+  columns: 2 200px;
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+}
+.col3 {
+  columns: 3 100px;
+  -webkit-columns: 3 100px;
+  -moz-columns: 3 100px;
+}
+
+.scoreboard-column-left{
+  display: flex;
+  float: left;
+  text-align: center;
+  margin-left: auto;
+  width: 25%;
+}
+
+.final-score {
+  background: WhiteSmoke;
+  font-size: 3em;
+  line-height: 3em;
+  font-family: "Futura";
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.scoreboard-column-center{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 40%;
+}
+
+.scoreboard-column-right{
+  display: flex;
+  float: right;
+  text-align: center;
+  width: 25%;
+}
+
+.column-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column-center-shots {
+  margin: 0 auto;
+  position: relative;
+  width: 85%;
+  height: auto;
+}
+
+.column-center-four {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.column-center-line {
+  position: relative;
+  display: block;
+  height: auto;
+}
+
+.column-center h4 {
+  text-align: left;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+.line-spacer-left{
+  display: inline-block;
+  float: left;
+  width: 10%;
+  text-align: left;
+}
+
+.line-spacer-right{
+  display: inline-block;
+  float: right;
+  width: 10%;
+  text-align: left;
+}
+
+.title {
+  font-family: "Helvetica";
+  letter-spacing: -1px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: -4px;
+}
+
+.X-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tbl-header {
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cell-value {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top: 1em;
+  line-height: 48px;
+}
+
+.team-cell-value {
+  font-weight: 700;
+  font-family: "Helvetica";
+  font-size: 16px;
+}
+
+
+.name {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.player-photo {
+  width: 65px;
+  height: 48px;
+}
+
+.photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+/*justifying text*/
+body p {
+ display: block;
+ font-family: adobe-garamond-pro;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 22px;
+ letter-spacing: -.01em;
+ line-height: 1.4em;
+ text-transform: none;
+ color: #424242;
+}
+
+/* Add this second bit too if you want to be able to go to zero. */
+.sqs-block-spacer {
+  display: block;
+  margin-top: 1em !important;
+	margin-bottom: 1em !important;
+}
+
+h1 {
+  letter-spacing: -.01em;
+  font-size: 2.6em;
+  padding-top: 0em;
+  padding-right: 0em;
+  margin-bottom: -.15em;
+  padding-left: .1em;
+}
+
+h3 {
+  font-size: 1.4em;
+  text-align: center;
+  padding-top: 0em;
+  padding-right: 0em;
+  margin-bottom: 0.1em;
+  margin-left: 1em;
+  position: relative;
+}
+
+h4 {
+  font-size: 2em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.pace-head {
+  display: block;
+  margin-left: auto;
+  text-align: left;
+}
+
+h5 {
+  font-size: 1em;
+  letter-spacing: -.05em;
+  line-height: 1em;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+  padding-top: 0em;
+  padding-right: 0em;
+}
+
+h6 {
+  font-size: 1.4em;
+  text-align: left;
+  padding-top: 0em;
+  padding-right: 0em;
+  margin-bottom: 0.1em;
+  margin-left: 1em;
+  position: relative;
+}
+
+.form {
+  display: contents;
+  font-family: inherit;
+  font-size: .75em;
+  letter-spacing: -.05em;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  }
