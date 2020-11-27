@@ -32,6 +32,7 @@
 
 .nav-bar {
   display: flex;
+  padding: 0px 5px;
   justify-content: flex-start;
 }
 
