@@ -1,5 +1,17 @@
  @import url("https://use.typekit.net/yky6cne.css");
 
+ body, html {
+   height: 100%;
+ }
+
+ .parallax {
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
 .branded-head {
   font-family: abolition, sans-serif;
   font-weight: 400;
