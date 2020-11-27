@@ -71,7 +71,7 @@
 .image-title-overlay {
   position: absolute;
   top: 25px;
-  left: 15px;
+  left: 50px;
 }
 
 .image-title-overlay p {
@@ -88,7 +88,7 @@
 .image-subtitle-overlay {
   position: absolute;
   top: 75px;
-  left: 15px;
+  left: 50px;
 }
 
 .image-subtitle-overlay p {
