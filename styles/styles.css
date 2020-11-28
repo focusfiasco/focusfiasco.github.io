@@ -8,8 +8,10 @@
    padding-bottom: 20px;
  }
 
- .top-wrap {
+ .img-wrap {
    position: absolute;
+   margin-top: 5em;
+   margin-bottom: 5em;
  }
 
  .parallax {
