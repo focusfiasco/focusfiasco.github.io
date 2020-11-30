@@ -6,8 +6,9 @@
 
  footer {
    display: flex;
+   position: relative;
    padding: 0px 11px;
-   height: 150px; 
+   height: 150px;
    justify-content: center;
  }
 
@@ -16,7 +17,7 @@
  }
 
  .img-wrap {
-   position: absolute;
+   position: relative;
    margin-top: 5em;
    margin-bottom: 5em;
  }
