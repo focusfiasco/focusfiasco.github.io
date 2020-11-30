@@ -4,6 +4,13 @@
    height: 100%;
  }
 
+ footer {
+   display: flex;
+   padding: 0px 11px;
+   height: 150px; 
+   justify-content: center;
+ }
+
  .head-top {
    padding-bottom: 20px;
  }
@@ -76,7 +83,17 @@
   font-size: 1em;
   letter-spacing: .14em;
   text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: brandon-grotesque;
+  font-weight: bold;
   font-style: normal;
+  font-size: 0.75em;
+  letter-spacing: .14em;
+  text-transform: uppercase;
   color: #000;
   text-decoration: none;
 }
