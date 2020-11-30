@@ -97,7 +97,7 @@
 }
 
 .main-content {
-  display: grid;
+  display: block;
 }
 
 .img-fullwidth {
@@ -158,4 +158,8 @@ body {
   line-height: 1.6em;
   text-transform: none;
   color: #424242;
+}
+
+i, em {
+  font-style:italic!important;
 }
