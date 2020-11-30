@@ -14,6 +14,40 @@
    margin-bottom: 5em;
  }
 
+ .frontpage-gallery-wrap {
+  display: grid;
+  grid-template-areas:
+    "";
+ }
+
+ article:nth-of-type(1) {
+   grid-area: big1;
+ }
+
+ article:nth-of-type(2) {
+   grid-area: small1;
+ }
+
+ article:nth-of-type(3) {
+   grid-area: small2;
+ }
+
+ article:nth-of-type(4) {
+   grid-area: small3;
+ }
+
+ article:nth-of-type(5) {
+   grid-area: small4;
+ }
+
+ article:nth-of-type(6) {
+   grid-area: big2;
+ }
+
+ .frontpage-gallery-item {
+
+ }
+
  .parallax {
    height: 100%;
    background-attachment: fixed;
