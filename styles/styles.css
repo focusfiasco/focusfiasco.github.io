@@ -56,7 +56,7 @@
    grid-area: big2;
  }
 
- .frontpage-gallery-item {
+ .frontpage-gallery-item p{
    min-height: 480px;
  }
 
