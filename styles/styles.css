@@ -57,7 +57,7 @@
  }
 
  .frontpage-gallery-item {
-
+   min-height: 480px;
  }
 
  .parallax {
