@@ -28,7 +28,7 @@
   grid-template-areas:
     "big1 big1 big1 small1 small1 small1"
     "big1 big1 big1 small2 small2 small2"
-    "small4 small4 small5 small5 small6 small6";
+    "small3 small3 small4 small4 small5 small5";
  }
 
  article:nth-of-type(1) {
@@ -52,7 +52,7 @@
  }
 
  article:nth-of-type(6) {
-   grid-area: small6;
+   grid-area: small5;
  }
 
  .parallax {
